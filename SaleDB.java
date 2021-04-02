@@ -28,7 +28,7 @@ public class SaleDB {
 		}
 	}
 
-	// ��ȸ
+	
 	public static ResultSet getResultSet(String sql) {
 		try {
 
@@ -42,7 +42,7 @@ public class SaleDB {
 
 	}
 
-	// ���� ,����,����
+	
 	public static void executeQuery(String sql) {
 		try {
 			stmt.execute(sql);
