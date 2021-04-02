@@ -69,7 +69,7 @@ public class PC extends JFrame implements ActionListener, Runnable {
 		scrollPane = new JScrollPane(background);
 		setContentPane(scrollPane);
 
-		// �¼�ȭ�� ǥ��
+		
 		screen = new JPanel();
 		screen.setLayout(new GridLayout(5, 10, 5, 5));
 		screen.setBounds(50, 100, 1140, 600);
@@ -77,7 +77,7 @@ public class PC extends JFrame implements ActionListener, Runnable {
 
 		pan = new Seat[50];
 
-		// �¼�ǥ��
+		
 		for (int i = 0; i < 50; i++) {
 			pan[i] = new Seat(i);
 			pan[i].setBackground(Color.DARK_GRAY);
@@ -86,7 +86,7 @@ public class PC extends JFrame implements ActionListener, Runnable {
 			screen.add(pan[i]);
 		}
 
-		// �̹��� ��ư
+		
 		btnclock = new JButton(clock);
 		btnclock.setBounds(520, 30, 50, 50);
 		btnclock.setBorderPainted(false);
@@ -127,7 +127,7 @@ public class PC extends JFrame implements ActionListener, Runnable {
 		btncom.addActionListener(this);
 		background.add(btncom);
 
-		// ��
+		
 		JLabel exitlbl = new JLabel("종료");
 		exitlbl.setFont(new Font("SansSerif", Font.BOLD, 30));
 		exitlbl.setSize(100, 60);
@@ -181,11 +181,11 @@ public class PC extends JFrame implements ActionListener, Runnable {
 
 		setVisible(true);
 
-		// Clock(); //�ð�ȣ��
+		// Clock(); 
 
 	}
 
-	// �ð� ó��
+	
 	public void Clock() {
 		// TODO Auto-generated method stub
 		SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss");
