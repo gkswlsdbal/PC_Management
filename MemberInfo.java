@@ -53,10 +53,10 @@ public class MemberInfo extends JFrame {
 		panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 
-		DefaultTableCellRenderer dtcr = new DefaultTableCellRenderer(); // ����Ʈ���̺������� ����
-		dtcr.setHorizontalAlignment(SwingConstants.CENTER); // �������� ���������� ���ͷ� �����Ѵ�.
+		DefaultTableCellRenderer dtcr = new DefaultTableCellRenderer(); 
+		dtcr.setHorizontalAlignment(SwingConstants.CENTER); 
 
-		TableColumnModel tcm = table.getColumnModel(); // ������ ���̺��� �÷����� ������w
+		TableColumnModel tcm = table.getColumnModel(); 
 		tcm.getColumn(0).setCellRenderer(dtcr);
 		panel.add(lbl);
 		add(scrollPane, BorderLayout.CENTER);
