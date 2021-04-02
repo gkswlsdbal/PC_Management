@@ -63,10 +63,10 @@ public class Sales extends JFrame implements ActionListener {
 		panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 
-		DefaultTableCellRenderer dtcr = new DefaultTableCellRenderer(); // ����Ʈ���̺������� ����
-		dtcr.setHorizontalAlignment(SwingConstants.CENTER); // �������� ���������� ���ͷ� �����Ѵ�.
+		DefaultTableCellRenderer dtcr = new DefaultTableCellRenderer(); 
+		dtcr.setHorizontalAlignment(SwingConstants.CENTER); 
 
-		TableColumnModel tcm = table.getColumnModel(); // ������ ���̺��� �÷����� ������w
+		TableColumnModel tcm = table.getColumnModel(); 
 		tcm.getColumn(0).setCellRenderer(dtcr);
 		tcm.getColumn(1).setCellRenderer(dtcr);
 		tcm.getColumn(2).setCellRenderer(dtcr);
