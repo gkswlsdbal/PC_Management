@@ -29,7 +29,7 @@ public class PCDB {
 		}
 	}
 
-	// ��ȸ
+	
 	public static ResultSet getResultSet(String sql) {
 		try {
 			Statement stmt = conn.createStatement();
@@ -43,7 +43,7 @@ public class PCDB {
 
 	}
 
-	// ���� ,����,����
+	
 	public static void executeQuery(String sql) {
 		try {
 			stmt.execute(sql);
