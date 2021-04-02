@@ -77,7 +77,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		scrollPane = new JScrollPane(panel);
 		setContentPane(scrollPane);
 
-		// ���̵�
+		
 		JLabel laid = new JLabel("아이디:");
 		laid.setBounds(75, 90, 80, 20);
 		laid.setForeground(new Color(36, 205, 198));
@@ -95,7 +95,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		idex.setBounds(125, 110, 250, 18);
 		panel.add(idex);
 
-		// ��й�ȣ
+		
 		JLabel laps = new JLabel("패스워드:");
 		laps.setForeground(new Color(36, 205, 198));
 		laps.setBounds(62, 140, 80, 20);
@@ -109,7 +109,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		lapsex.setBounds(225, 140, 150, 20);
 		panel.add(lapsex);
 
-		// ��й�ȣ Ȯ��
+		
 		JLabel lapstx = new JLabel("패스워드 확인:");
 		lapstx.setBounds(32, 170, 110, 20);
 		lapstx.setForeground(new Color(36, 205, 198));
@@ -124,7 +124,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		btnpass.addActionListener(this);
 		panel.add(btnpass);
 
-		// �̸�
+		
 		JLabel laname = new JLabel("이름:");
 		laname.setForeground(new Color(36, 205, 198));
 		laname.setBounds(88, 200, 80, 20);
@@ -133,7 +133,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		name.setBounds(125, 200, 90, 20);
 		panel.add(name);
 
-		// �ֹι�ȣ
+		
 		JLabel lanumber = new JLabel("주민번호:");
 		lanumber.setForeground(new Color(36, 205, 198));
 		lanumber.setBounds(62, 230, 90, 20);
@@ -151,7 +151,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		behind.setBounds(210, 230, 90, 20);
 		panel.add(behind);
 
-		// �̸���
+		
 		JLabel laemail = new JLabel("이메일:");
 		laemail.setForeground(new Color(36, 205, 198));
 		laemail.setBounds(75, 260, 70, 20);
@@ -185,7 +185,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		chmail.addItemListener(this);
 		panel.add(chmail);
 
-		// �ڵ�����ȣ
+		
 		JLabel laphone = new JLabel("핸드폰:");
 		laphone.setBounds(75, 310, 50, 20);
 		laphone.setForeground(new Color(36, 205, 198));
@@ -218,7 +218,7 @@ public class Member extends JFrame implements ItemListener, ActionListener {
 		chphone.add("019");
 		panel.add(chphone);
 
-		// ��
+		
 		member = new JButton("회원 가입");
 		member.setBounds(115, 350, 100, 30);
 		member.addActionListener(this);
