@@ -58,7 +58,7 @@ public class Seat extends JPanel implements ActionListener {
 		pcIcon2 = new ImageIcon("images/green.png");
 		check = i;
 
-		// ImageIcon ũ�⸦ �����Ѵ�.
+		// ImageIcon 
 		img1 = pcIcon.getImage();
 		pcimg1 = img1.getScaledInstance(10, 10, Image.SCALE_SMOOTH);
 		pcIcon = new ImageIcon(pcimg1);
